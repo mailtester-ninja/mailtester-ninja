@@ -9,6 +9,7 @@
   <a href="https://mailtester.ninja">Website</a> ·
   <a href="https://mailtester.ninja/api/">API docs</a> ·
   <a href="https://mailtester.ninja/verify-emails-unlimited/">Get a key</a> ·
+  <a href="https://mailtester.ninja/free-email-verification-api/">Free API</a> ·
   <a href="https://mailtester.ninja/email-verifier/">Try it free</a>
 </p>
 
@@ -28,9 +29,11 @@ MailTester Ninja verifies email addresses in real time, over SMTP, without ever 
 ➡️ **[API examples for every stack](https://github.com/mailtester-ninja/mailtester-api-examples)** , copy and paste code for cURL, Python, Node.js, PHP, Go, Ruby, Java, C#, Google Sheets, plus n8n, Make, Zapier, Clay, and AI agents.
 
 ```bash
-curl "https://happy.mailtester.ninja/ninja?email=info@apple.com&key=YOUR_KEY"
+curl "https://happy.mailtester.ninja/ninja?email=info@apple.com&key=free"
 # {"code":"ok","message":"Accepted", ...}
 ```
+
+Free to try: `key=free` gives 10 checks a day with no signup, a [free token](https://mailtester.ninja/free-email-verification-api/) gives 50. Paid keys remove the 30 second wait.
 
 ### Open data
 
